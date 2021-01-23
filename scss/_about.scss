@@ -1,0 +1,22 @@
+#about {
+  background-color: $secondary;
+
+  .about-title {
+    color: $primary;
+  }
+  .about-description {
+    padding: 10px;
+    color: $light;
+    a {
+      color: $primary;
+    }
+  }
+
+  .our-work {
+    background-color: $primary;
+    color: $button-white;
+    border-radius: 50px;
+    margin: 1em 0 2em;
+    padding: 10px 1.5em;
+  }
+}

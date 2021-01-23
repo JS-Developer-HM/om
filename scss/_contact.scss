@@ -1,0 +1,53 @@
+#contact {
+  background-color: $secondary;
+
+  .contact-title {
+    color: $primary;
+  }
+
+  .contact-us {
+    height: 70%;
+  }
+
+  .info {
+    i {
+      font-size: 20px;
+      color: $primary;
+      float: left;
+      width: 44px;
+      height: 44px;
+      background: $input-bg;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50px;
+      margin-right: 10px;
+    }
+
+    h4 {
+      margin-bottom: 0;
+      color: $primary;
+    }
+
+    p,
+    a {
+      color: $light;
+      text-decoration: none;
+    }
+  }
+
+  .form-control {
+    background: $input-bg;
+    border: 1px solid $input-border;
+    color: #fff;
+    padding: 10px;
+    box-shadow: none;
+  }
+
+  .btn-submit {
+    background-color: $primary;
+    border: none;
+    color: $button-white;
+    border-radius: 30px;
+  }
+}
