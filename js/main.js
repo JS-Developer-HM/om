@@ -28,12 +28,12 @@ $(document).ready(function () {
     $(".navbar-toggler").click();
   });
   const iconMode = $(".toggle-mode i");
-  let mode = localStorage.getItem("mode") || "dark";
-  localStorage.setItem("mode", mode);
+  let mode = $.cookie("mode") || "dark";
+  $.cookie("mode", mode);
   changeMode(mode);
   iconMode.click(() => {
     mode = mode == "dark" ? "light" : "dark";
-    localStorage.setItem("mode", mode);
+    $.cookie("mode", mode);
     changeMode(mode);
   });
 
